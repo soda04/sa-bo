@@ -16,7 +16,7 @@ void cppmain(){
 		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_2,2000);
 		HAL_Delay(4000);
 		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_2,1000);
-		HAL_Delay(4000);
+		HAL_Delay(7000);
 	}
 }
 
